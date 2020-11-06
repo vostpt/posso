@@ -11,7 +11,7 @@ $purifier = new HTMLPurifier($config);
 $word = $_GET['posso'] ? htmlentities($purifier->purify($_GET['posso']), ENT_QUOTES, 'UTF-8') : false;
 
 $troll = false;
-if(preg_match('/casa|isolamento|isolado|confinado|confinamento|dormir|descansar|residência|residencia|isolar|tomahock|dgs|sns|sns24|infectad|infeta|infectar|foder|fornicar|merda|foda|cona|pissa|piça|home|mãe|mae|estudar|governo|ministr|isolated|comer|puta|fuder|cagar/i', $word)){
+if(preg_match('/casa|isolamento|isolado|confinado|confinamento|dormir|descansar|residência|residencia|isolar|tomahock|dgs|sns|sns24|infectad|infeta|infectar|foder|fornicar|merda|foda|cona|pissa|piça|home|mãe|mae|estudar|governo|ministr|pensar|televisão|tv|ouvir|isolated|comer|puta|fuder|cagar/i', $word)){
     $troll = true;
 }
 
