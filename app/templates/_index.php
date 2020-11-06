@@ -125,14 +125,14 @@ if(preg_match('/casa|isolamento|isolado|confinado|confinamento/i', $word)){
                 <div class="col-12">
                     <p>Os campos assinalados por <strong>*</strong> podem incluir-se:</p>
                     <ul>
-                        <li>Ir às compras</li>
-                        <li>Ir ao centro de saúde</li>
-                        <li>Ir à farmácia</li>
-                        <li>Ir visitar os pais</li>
-                        <li>Ir visitar alguém</li>
-                        <li>Ir viajar de transportes públicos</li>
-                        <li>Ir a locais públicos</li>
-                        <li>Sair de casa</li>
+                        <li><a href="/?posso=Ir às compras">Ir às compras</a></li>
+                        <li><a href="/?posso=Ir ao centro de saúde">Ir ao centro de saúde</a></li>
+                        <li><a href="/?posso=Ir à farmácia">Ir à farmácia</a></li>
+                        <li><a href="/?posso=Ir visitar os pais">Ir visitar os pais</a></li>
+                        <li><a href="/?posso=Ir visitar alguém">Ir visitar alguém</a></li>
+                        <li><a href="/?posso=Ir viajar de transportes públicos">Ir viajar de transportes públicos</a></li>
+                        <li><a href="/?posso=Ir a locais públicos">Ir a locais públicos</a></li>
+                        <li><a href="/?posso=Sair de casa">Sair de casa</a></li>
                     </ul>
                 </div>
             </div>
