@@ -25,6 +25,23 @@ if(preg_match('/casa|isolamento|isolado|confinado|confinamento/i', $word)){
                 <p class="pp">Se estás <strong>infectado</strong>, <strong>a aguardar teste</strong> ou <strong>a aguardar resultado do teste</strong> FICA EM ISOLAMENTO!</p>
             </div>
         </div>
+
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <form method="get">
+                    <p class="mb-0 pp">Tens dúvidas? Pergunta o que podes fazer:</p>
+
+                    <!-- Material input -->
+                    <div class="md-form mt-0">
+                        <input type="text" id="posso" name="posso" class="form-control">
+                        <label for="posso">ir às compras</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Perguntar</button>
+
+                </form>
+            </div>
+        </div>
     <?php else: ?>
         <?php if($word): ?>
             <div class="row mt-3 border-bottom">
