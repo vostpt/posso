@@ -4,18 +4,18 @@
     <meta charset="utf-8"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Base COVID19 - <?= $title ?></title>
+    <title><?= $title ?></title>
 
     <meta name="description" content="<?= $description ?>">
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://posso.vost.pt<?= $_SERVER['REQUEST_URI'] ?>">
-    <meta property="og:title" content="Posso? - <?= $title ?>">
+    <meta property="og:title" content="<?= $title ?>">
     <meta property="og:description" content="<?= $description ?>">
 
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://posso.vost.pt<?= $_SERVER['REQUEST_URI'] ?>">
-    <meta property="twitter:title" content="Base COVID19 - <?= $title ?>">
+    <meta property="twitter:title" content="<?= $title ?>">
     <meta property="twitter:description" content="<?= $description ?>">
 
     <link href="/css/style.css" rel="stylesheet"/>
@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
           integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
           crossorigin="anonymous"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 
 </head>
 <body>

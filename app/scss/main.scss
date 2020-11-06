@@ -4,8 +4,6 @@ $ee: #333;
 
 $reeed: #FB5012 !default;
 
-
-
 $background-color: #EAF6FF !default;
 // Bootstrap file partials
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -30,6 +28,3 @@ body{
 @include media-breakpoint-down(md) {}
 @include media-breakpoint-down(lg) {}
 @include media-breakpoint-down(xl) {}
-
-
-

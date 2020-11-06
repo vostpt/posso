@@ -1,7 +1,8 @@
 {
     "require": {
         "steampixel/simple-php-router": "^0.4.1",
-        "vlucas/phpdotenv": "^5.2"
+        "vlucas/phpdotenv": "^5.2",
+        "ezyang/htmlpurifier": "^4.13"
     },
     "autoload": {
         "psr-4": {
