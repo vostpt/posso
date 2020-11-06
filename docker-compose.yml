@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  nginx:
+    image: nginx
+    restart: always
+    volumes:
+      - ./app:/var/www/html
+      - ./logs:/var/log/nginx
+      - ./nginx:/etc/nginx/conf.d
+    ports:
+      - "8092:80"
+
+  posso:
+    container_name: posso
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "9000:9000"
+    volumes:
+      - ./app:/var/www/html
+
+volumes:
+  posso:

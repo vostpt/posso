@@ -1,0 +1,35 @@
+$primary:       #009FFD !default;
+$secondary:     #E9DF00 !default;
+$ee: #333;
+
+$reeed: #FB5012 !default;
+
+
+
+$background-color: #EAF6FF !default;
+// Bootstrap file partials
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body{
+  background-color: $background-color;
+  font-family: 'Roboto', sans-serif;
+
+  .pp{
+    font-size: 3em;
+  }
+
+
+  .nop{
+    font-size: 5rem;
+    font-weight: 700;
+    color: $reeed;
+  }
+}
+@include media-breakpoint-down(xs) {}
+@include media-breakpoint-down(sm) {}
+@include media-breakpoint-down(md) {}
+@include media-breakpoint-down(lg) {}
+@include media-breakpoint-down(xl) {}
+
+
+

@@ -1,0 +1,20 @@
+{
+  "name": "Posso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cs-watch": "node-sass scss/main.scss public/css/style.css --watch",
+    "cs-compile": "node-sass scss/main.scss css/style.comp.css",
+    "cs-prefix": "postcss css/style.comp.css --use autoprefixer -b 'last 4 versions' -o css/style.prefix.css",
+    "cs-compress": "node-sass css/style.prefix.css css/style.mini.css --output-style compressed",
+    "cs-build": "npm-run-all cs-compile cs-prefix cs-compress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "create-scss": "^2.5.5"
+  }
+}
