@@ -15,21 +15,21 @@ $word = $_GET['posso'] ? htmlentities($purifier->purify($_GET['posso']), ENT_QUO
     <?php if($word): ?>
         <div class="row mt-3 border-bottom">
             <div class="col-12 text-center">
-                <p class="pp">"Posso <?= $word ?> se estiver <strong>infectado</strong>?"</p>
+                <p class="pp">"Posso <u><?= $word ?></u> se estiver <strong>infectado</strong>?"</p>
                 <p class="nop">NÃO</p>
             </div>
         </div>
 
         <div class="row mt-5 border-bottom">
             <div class="col-12 text-center">
-                <p class="pp">"Posso <?= $word ?> se estiver a <strong>aguardar teste</strong>?"</p>
+                <p class="pp">"Posso <u><?= $word ?></u> se estiver a <strong>aguardar teste</strong>?"</p>
                 <p class="nop">NÃO</p>
             </div>
         </div>
 
         <div class="row mt-5 border-bottom">
             <div class="col-12 text-center">
-                <p class="pp">"Posso <?= $word ?> se estiver a <strong>aguardar resultado de teste</strong>?"</p>
+                <p class="pp">"Posso <u><?= $word ?></u> se estiver a <strong>aguardar resultado de teste</strong>?"</p>
                 <p class="nop">NÃO</p>
             </div>
         </div>
